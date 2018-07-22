@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<main id="main">
+		<header id="header">
+			<nav id="nav-bar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+				<a href="#" class="navbar-brand">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png" alt="logo" id="header-img"> Pixel
+				</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#mynav" aria-controls="mynav" aria-expanded="false" aria-label="toggle-navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="mynav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a href="#intro" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#features" class="nav-link">Features</a>
+						</li>
+						<li class="nav-item">
+							<a href="#reviews" class="nav-link">Reviews</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section id="intro">
+			<h1 class="sr-only">Pixel</h1>
+			<img class="img" src="https://i2.wp.com/www.izikart.com/gal/main_img/Google-Pixel147pixel-black-min-min.png?resize=420%2C400"
+			 alt="mobile">
+			<p id="phone-text">
+				Believe in
+				<br> Technology, Make
+				<br> the change
+			</p>
+		</section>
+
+		<section class="bg-light">
+			<h1 class="text-center heading bg-light">Our Core Features</h1>
+			<div id="features">
+				<div class="feature text-center">
+					<div>
+						<i class="fa fa-star"></i>
+						<strong>Material</strong>
+						<br> Metal unibody
+						<br> Aluminum
+					</div>
+					<div>
+						<i class="fa fa-camera"></i>
+						<strong>Rear Camera</strong>
+						<br> 12.2 MP
+					</div>
+					<div>
+						<i class="fa fa-tablet"></i>
+						<strong>Display</strong>
+						<br> AMOLED
+						<br> 5.5 inches
+					</div>
+				</div>
+
+				<img class="img" src="https://i2.wp.com/www.izikart.com/gal/main_img/Google-Pixel147pixel-black-min-min.png?resize=420%2C400"
+				 alt="mobile">
+
+				<div class="feature">
+					<div>
+						<i class="fa fa-inbox"></i>
+						<strong>Storage</strong>
+						<br> upto
+						<br> 128 GB
+					</div>
+					<div>
+						<i class="fa fa-camera"></i>
+						<strong>Front Camera</strong>
+						<br> 8.0 MP
+					</div>
+					<div>
+						<i class="fa fa-battery-full"></i>
+						<strong>Battery</strong>
+						<br> 3500 mAh
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="reviews" class="text-center">
+			<h1 class="heading">Reviews</h1>
+			<div class="video mt-5">
+				<iframe width="560" height="315" id="video" src="https://www.youtube-nocookie.com/embed/LR708uA4zQ8" allowfullscreen></iframe>
+			</div>
+
+			<div id="press" class="container mt-5 mb-4">
+				<div class="card">
+					<div class="card-body bg-light">
+						<em>
+							"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus iusto at error nemo maxime quas, perspiciatis fuga dolores
+							velit sit sapiente beatae libero temporibus modi alias nam eveniet minima eaque dolore ad! Aperiam id nulla ipsum
+							illum quod deserunt, nesciunt recusandae architecto saepe fugit libero necessitatibus quisquam! Officia, recusandae
+							minima."
+						</em>
+					</div>
+					<div class="card-footer bg-dark text-light">Ars Technica</div>
+				</div>
+				<div class="card">
+					<div class="card-body bg-light">
+						<em>
+							"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus iusto at error nemo maxime quas, perspiciatis fuga dolores
+							velit sit sapiente beatae libero temporibus modi alias nam eveniet minima eaque dolore ad! Aperiam id nulla ipsum
+							illum quod deserunt, nesciunt recusandae architecto saepe fugit libero necessitatibus quisquam! Officia, recusandae
+							minima."
+						</em>
+					</div>
+					<div class="card-footer bg-dark text-white">The Verge</div>
+				</div>
+				<div class="card">
+					<div class="card-body bg-light">
+						<em>
+							"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus iusto at error nemo maxime quas, perspiciatis fuga dolores
+							velit sit sapiente beatae libero temporibus modi alias nam eveniet minima eaque dolore ad! Aperiam id nulla ipsum
+							illum quod deserunt, nesciunt recusandae architecto saepe fugit libero necessitatibus quisquam! Officia, recusandae
+							minima."
+						</em>
+					</div>
+					<div class="card-footer bg-dark text-white">CNET</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="suscribe" class="bg-dark text-light p-3">
+			<h3 class="text-center mb-3 heading">Suscribe for Latest Updates</h3>
+			<form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+				<div class="form-group col-md-6 mx-auto">
+					<label for="email" class="sr-only">Suscribe</label>
+					<input type="email" name="email" id="email" class="form-control" placeholder="enter email" required>
+				</div>
+				<div class="form-group text-center">
+					<input type="submit" id="submit" value="suscribe" class="btn btn-success">
+				</div>
+			</form>
+		</section>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+	 crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
