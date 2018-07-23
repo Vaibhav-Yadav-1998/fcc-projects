@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="title">
+            <h1>Python</h1>
+        </header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Hello_World" class="nav-link">Hello World</a>
+        <a href="#Variables" class="nav-link">Variables</a>
+        <a href="#Variable_Names" class="nav-link">Variable Names</a>
+        <a href="#Data_Types" class="nav-link">Data Types</a>
+        <a href="#Numbers" class="nav-link">Numbers</a>
+        <a href="#Strings" class="nav-link">Strings</a>
+        <a href="#Reference" class="nav-link">Reference</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="python-logo">
+            <p>
+                Python is an interpreted high-level programming language for general-purpose programming. Created by
+                <em>Guido van Rossum</em> and first released in 1991, Python has a design philosophy that emphasizes code readability,
+                notably using significant whitespace. It provides constructs that enable clear programming on both small
+                and large scales.In July 2018, the creator Guido Rossum stepped down as the leader in the language community
+                after 30 years.
+            </p>
+            <p>
+                Python features a dynamic type system and automatic memory management. It supports multiple programming paradigms, including
+                object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.
+            </p>
+            <p>
+                Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source
+                software and has a community-based development model, as do nearly all of Python's other implementations.
+                Python and CPython are managed by the non-profit Python Software Foundation.
+            </p>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>
+                <h2>Hello World</h2>
+            </header>
+            <p>
+                Getting started with python is very easy. Just install the python for your operating system and open python interpreter and
+                type
+                <code class="code">print('Hello World')</code>, it will print 'Hello World' in the console.
+            </p>
+            <p class="code-block">
+                <code>
+                 >>> print('Hello World') <br>
+                 Hello World
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>
+                <h2>Variables</h2>
+            </header>
+            <p>
+                Unlike other programming languages, Python has no command for declaring a variable. A variable is created the moment you
+                first assign a value to it. Variables do not need to be declared with any particular type and can even change
+                type after they have been set.
+            </p>
+            <p class="code-block">
+                <code>
+                >>> x = 5 <br>
+                >>> name = 'John' <br>
+                >>> x <br>
+                5 <br>
+                >>> name <br>
+                'John'
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Variable_Names">
+            <header>
+                <h2>Variable Names</h2>
+            </header>
+            <p>
+                A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python
+                variables:
+            </p>
+            <ul>
+                <li>
+                    A variable name must start with a letter or the underscore character.
+                </li>
+                <li>
+                    A variable name cannot start with a number.
+                </li>
+                <li>
+                    A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
+                </li>
+                <li>
+                    Variable names are case-sensitive (age, Age and AGE are three different variables).
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="Data_Types">
+            <header>
+                <h2>Data Types</h2>
+            </header>
+            <p>
+                Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes
+                and variables are instance (object) of these classes. There are various data types in Python. Some of the
+                important types are listed below.
+            </p>
+            <ul>
+                <li> Numbers </li>
+                <li> Strings </li>
+                <li> List </li>
+                <li> Tuple </li>
+                <li> Set </li>
+                <li> Dictionary </li>
+            </ul>
+        </section>
+        <section class="main-section" id="Numbers">
+            <header>
+                <h2>Numbers</h2>
+            </header>
+            <p>
+                Number data types store numeric values. Number objects are created when you assign a value to them. There are three numeric
+                types in Python:
+            </p>
+            <ul>
+                <li> int </li>
+                <li> float </li>
+                <li> complex </li>
+            </ul>
+            <p class="code-block">
+                <code>
+                    x = 5 #int <br>
+                    y = 2.5 #float <br>
+                    z = 1j #complex <br>
+                </code>
+            </p>
+
+            <h3>Int</h3>
+            <p>
+                Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+            </p>
+            <p class="code-block">
+                <code>
+                   x = 1 <br>
+                   y = 35656222554887711 <br>
+                   z = -3255522 <br>
+                </code>
+            </p>
+
+            <h3>Float</h3>
+            <p>
+                Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+            </p>
+            <p class="code-block">
+                <code>
+                    x = 1.10 <br>
+                    y = 1.0 <br>
+                    z = -35.59 <br>
+                </code>
+            </p>
+
+            <h3>Complex</h3>
+            <p>
+                Complex numbers are written with a "j" as the imaginary part:
+            </p>
+            <p class="code-block">
+                <code>
+                    x = 3+5j <br>
+                    y = 5j <br>
+                    z = -5j
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Strings">
+            <header>
+                <h2>Strings</h2>
+            </header>
+            <p>
+                Strings in Python are identified as a contiguous set of characters represented in the quotation marks. Python allows for
+                either pairs of single or double quotes. Subsets of strings can be taken using the slice operator ([ ] and
+                [:] ) with indexes starting at 0 in the beginning of the string and working their way from -1 at the end.
+                <br> The plus (+) sign is the string concatenation operator and the asterisk (*) is the repetition operator.
+                For example −
+            </p>
+            <p class="code-block">
+                <code>
+                    str = 'Hello World!' <br>
+                    <br>
+                    print str      <br>    # Prints complete string <br>
+                    print str[0]   <br>    # Prints first character of the string <br>
+                    print str[2:5] <br>   # Prints characters starting from 3rd to 5th <br>
+                    print str[2:]  <br>    # Prints string starting from 3rd character <br>
+                    print str * 2  <br>      # Prints string two times <br>
+                    print str + "TEST" <br> # Prints concatenated string
+                </code>
+            </p>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <p>
+                All the documentation in this page is taken from:
+            </p>
+            <ul>
+                <li>
+                    <a href="http://www.python.org" target="_blank">Python Official Website</a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/python/" target="_blank">w3schools</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
