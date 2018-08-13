@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+header {
+  font-family: "Lobster", sans-serif, cursive;
+}
+
+#quote-box {
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#text {
+  font-size: 1.5rem;
+  font-family: "Lobster", sans-serif, cursive;
+}
+
+#author {
+  font-style: italic;
+  font-weight: 700;
+}
+
+#tweet-quote {
+  font-size: 2rem;
+}
+
+body {
+  background-color: #ccc;
+  transition: all 0.5s;
+}
