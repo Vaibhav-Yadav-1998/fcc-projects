@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ZCOOL QingKe HuangYou", Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: aquamarine;
+  word-spacing: 5px;
+}
+
+#timer-label {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+#time-left {
+  padding: 73px 10px;
+  padding-left: 13px;
+  border: 10px solid;
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 10px auto;
+  font-size: 53px;
+  letter-spacing: 4px;
+}
+
+#reset {
+  margin-left: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 28px;
+}
+
+.time-values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  letter-spacing: 4px;
+  font-size: 35px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+i {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.label {
+  text-transform: capitalize;
+}
