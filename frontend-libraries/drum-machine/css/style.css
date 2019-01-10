@@ -1,0 +1,53 @@
+:root {
+  --primary-color: aqua;
+  --secondary-color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#root {
+  text-align: center;
+}
+
+#drum-machine {
+  display: grid;
+  max-width: 170px;
+  margin: 50px auto;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+.drum-pad {
+  display: block;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.drum-pad:active {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#display {
+  border: 5px solid;
+  border-radius: 10px;
+  max-width: 230px;
+  padding: 10px;
+  margin: 10px auto;
+  height: 27px;
+}
