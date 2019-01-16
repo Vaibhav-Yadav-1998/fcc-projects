@@ -1,0 +1,36 @@
+:root {
+  --bg-color: rgb(255, 235, 121);
+  --primary-color: saddlebrown;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--primary-color) !important;
+}
+
+#editor {
+  border: 10px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  color: black;
+  outline: 0 !important;
+}
+
+#preview {
+  border: 10px solid var(--primary-color);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 25px;
+  color: black;
+}
+
+.title {
+  margin-top: 35px;
+  font-weight: 500;
+}
+
+pre,
+code {
+  background-color: #eee;
+  padding: 0, 10px;
+}
